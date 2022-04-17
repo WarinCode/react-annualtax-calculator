@@ -20,30 +20,38 @@
     <!-- As a heading -->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <span class="navbar-brand mb-0 h1">Navbar</span>
+            <span class="navbar-brand mb-0 h1">โปรแกรมคำนวณภาษีรายปี</span>
         </div>
     </nav>
 
     <section class=" m-md-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class=" col-md-8">
-                    <form id="fm1" name="fm1" method="post">
-                        <h1 class="text-black">โปรแกรมคำนวณภาษี</h1>
+                <div class=" col-md">
+                    <form id="fm1" name="fm1">
+                        <h1 class="text-black">โปรดใส่ข้อมูลลงไป</h1>
                         <h3 id="reply"></h3>
                         <label class=" form-label">
                             <input type="text" id="use" name=" use" placeholder="ใส่จำนวนเลขมา">
                         </label>
                         <div class=" m-2 ">
-                            <button type="button" id="submit" class="btn btn-primary">OK</button>
+                            <button class="btn btn-primary">OK</button>
                         </div>
+
+                        <div class="crop">
+                            <section>
+                                <h5 id="render" class=" ms-2"></h5>
+                                <h5 id="rendeerror" class=" ms-2"></h5>
+                            </section>
+                        </div>
+
                     </form>
                 </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
+
+
 
 
 
