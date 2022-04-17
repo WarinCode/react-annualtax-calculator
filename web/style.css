@@ -3,3 +3,23 @@
     font-weight: 50px;
     font-size: 23px;
 }
+
+#render {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: cornsilk;
+    padding: 15px;
+}
+
+#rendeerror {
+    text-align: center;
+    color: rgb(243, 23, 23);
+    padding: 15px;
+}
+
+.crop {
+    background-color: black;
+    width: 700px;
+    height: 200px;
+}
