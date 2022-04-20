@@ -1,26 +1,26 @@
 * {
-            font-family: 'Prompt', sans-serif;
-            font-weight: 50px;
-            font-size: 23px;
-       }
-        
-        #render {
-            position: relative;
-            top: 50px;
-            text-align: center;
-            color: rgb(223, 255, 220);
-            padding: 15px;
-        }
-        
-        #rendeerror {
-            text-align: center;
-            color: rgb(243, 23, 23);
-            padding: 15px;
-        }
-        
-        .crop {
-            border: 0.3rem solid rgb(85, 216, 177);
-            background-color: black;
-            width: 700px;
-            height: 200px;
-        }
+    font-family: 'Prompt', sans-serif;
+    font-weight: 50px;
+    font-size: 23px;
+}
+
+#render {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: rgb(223, 255, 220);
+    padding: 15px;
+}
+
+#rendeerror {
+    text-align: center;
+    color: rgb(243, 23, 23);
+    padding: 15px;
+}
+
+.crop {
+    border: 0.3rem solid rgb(85, 216, 177);
+    background-color: black;
+    width: 700px;
+    height: 200px;
+}
