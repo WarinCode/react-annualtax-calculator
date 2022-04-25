@@ -79,7 +79,7 @@ export default  function Main(){
                 clearInterval(timerInterval)
             }
             })
-
+ 
             const load = document.querySelector('.render');
             load.innerHTML = "Loading...."
         };
