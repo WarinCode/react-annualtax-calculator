@@ -1,1 +1,1 @@
-https://annualtax-calculator471.netlify.app/
+annualtax-calculator471.netlify.app/
